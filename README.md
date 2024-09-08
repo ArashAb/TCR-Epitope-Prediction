@@ -29,7 +29,7 @@ tcr-epitope-classifier/
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/tcr-epitope-classifier.git
+   git clone https://github.com/arashab/tcr-epitope-classifier.git
    cd tcr-epitope-classifier
    ```
 
