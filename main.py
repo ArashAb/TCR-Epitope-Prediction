@@ -13,7 +13,7 @@ def main():
     model = TCRClassifier(num_classes=len(epitope_encoder.classes_), vocab_sizes=vocab_sizes)
     
     # Train model
-    trained_model = train_model(model, data, label_encoders, epitope_encoder)
+    trained_model = train_model(model, data, label_encoders, epitope_encoder, file_path)
     
     # Here you could add code to make predictions or further evaluate the model
     
